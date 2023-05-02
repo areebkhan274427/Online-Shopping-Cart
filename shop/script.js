@@ -11,7 +11,7 @@ const produtc = {
 
 
 if(!localStorage.getItem('currUser')){
-  location.href='/login';
+  location.href='../login/index.html';
 }
 
 const itemsContainer = document.querySelector('.items');

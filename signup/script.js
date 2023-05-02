@@ -64,7 +64,7 @@ form.addEventListener('submit',(event)=>{
     form.reset();
 
     setTimeout(()=>{  
-       location.href='../login';
+       location.href='../login/index.html';
     },1500);
 
 })
