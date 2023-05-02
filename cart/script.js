@@ -1,6 +1,6 @@
 
 if(!localStorage.getItem('currUser')){
-    location.href='/login';
+    location.href='/login/index.html';
 }
 const itemContainer = document.querySelector('.items');
 const listContainer = document.querySelector('.list-container');
