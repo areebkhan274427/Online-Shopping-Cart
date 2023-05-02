@@ -5,7 +5,7 @@ const input2 = document.getElementById('inputs2');
 
 
 if(!localStorage.getItem('currUser')){
-    location.href='/login';
+    location.href='../login/index.html';
 }
 else{
     let user =JSON.parse(localStorage.getItem('currUser'));
@@ -18,7 +18,7 @@ logout.addEventListener('click',(event)=>{
     event.preventDefault();
     console.log("HEllo");
     localStorage.removeItem('currUser');
-    location.href='/login';
+    location.href='../login/index.html';
 })
 
 input1.addEventListener('submit',(event)=>{
