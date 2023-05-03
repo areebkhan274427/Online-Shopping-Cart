@@ -69,7 +69,6 @@ main aside {
   position: fixed;
   padding-top: 1rem;
   width: 11rem;
-  overflow-y: scroll;
   padding-bottom: 80px;
 }
 
