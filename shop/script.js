@@ -82,6 +82,14 @@ allBtn.addEventListener('click',()=>{
   myArr =JSON.parse(localStorage.getItem('itemArr'));
   allBtn.style.backgroundColor='black';
   allBtn.style.color='white';
+  menBtn.style.color='black';
+  menBtn.style.backgroundColor='white';
+  womenBtn.style.color='black';
+  womenBtn.style.backgroundColor='white';
+  jewelleryBtn.style.color='black';
+  jewelleryBtn.style.backgroundColor='white';
+  electronicsBtn.style.color='black';
+  electronicsBtn.style.backgroundColor='white';
   showItems(myArr);
 })
 
@@ -94,6 +102,15 @@ menBtn.addEventListener('click',()=>{
   })
   allBtn.style.backgroundColor='white';
   allBtn.style.color='black';
+  menBtn.style.color='white';
+  menBtn.style.backgroundColor='black';
+  womenBtn.style.color='black';
+  womenBtn.style.backgroundColor='white';
+  jewelleryBtn.style.color='black';
+  jewelleryBtn.style.backgroundColor='white';
+  electronicsBtn.style.color='black';
+  electronicsBtn.style.backgroundColor='white';
+
 
   showItems(myArr);
 })
@@ -106,6 +123,14 @@ womenBtn.addEventListener('click',()=>{
   })
   allBtn.style.backgroundColor='white';
   allBtn.style.color='black';
+  menBtn.style.color='black';
+  menBtn.style.backgroundColor='white';
+  womenBtn.style.color='white';
+  womenBtn.style.backgroundColor='black';
+  jewelleryBtn.style.color='black';
+  jewelleryBtn.style.backgroundColor='white';
+  electronicsBtn.style.color='black';
+  electronicsBtn.style.backgroundColor='white';
 
   showItems(myArr);
 })
@@ -118,6 +143,14 @@ jewelleryBtn.addEventListener('click',()=>{
   })
   allBtn.style.backgroundColor='white';
   allBtn.style.color='black';
+  menBtn.style.color='black';
+  menBtn.style.backgroundColor='white';
+  womenBtn.style.color='black';
+  womenBtn.style.backgroundColor='white';
+  jewelleryBtn.style.color='white';
+  jewelleryBtn.style.backgroundColor='black';
+  electronicsBtn.style.color='black';
+  electronicsBtn.style.backgroundColor='white';
 
   showItems(myArr);
 })
@@ -130,6 +163,14 @@ electronicsBtn.addEventListener('click',()=>{
   })
   allBtn.style.backgroundColor='white';
   allBtn.style.color='black';
+  menBtn.style.color='black';
+  menBtn.style.backgroundColor='white';
+  womenBtn.style.color='black';
+  womenBtn.style.backgroundColor='white';
+  jewelleryBtn.style.color='black';
+  jewelleryBtn.style.backgroundColor='white';
+  electronicsBtn.style.color='white';
+  electronicsBtn.style.backgroundColor='black';
 
   showItems(myArr);
 })
